@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet"> 
         <title>Etch-a-Sketch</title>
     </head>
@@ -15,6 +15,18 @@
         </section>
         <nav id="sketchTools">
             <div id="reset">Reset</div>
+            <div id="color">Color Mode</div>
+            <div id="rainbow">Rainbow Mode</div>
+            <div class="break"></div>
+            <input id="colorPicker" type="color">
+            <div id="size">
+                <input type="range" min="3" max="50" value="16" id="size-line">
+                <span id = "size-bullet">16</span>
+            </div>
+            <div id="chBoxGridDisplay">
+                <input type="checkbox" id="gridDisplay" names="gridDisplay" checked>
+                <label for="gridDisplay">Display grid</label>
+            </div>
         </nav>
     </body>
     <script src = "script.js"></script>
