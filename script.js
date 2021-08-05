@@ -71,7 +71,7 @@ function setColor() {
     if(mode != "color"){
         mode = "color";
         this.style.backgroundColor = "rgb(194, 179, 178)";
-        rainbowBtn.style.backgroundColor = colorPicker.value;
+        rainbowBtn.style.backgroundColor = defaultSketchToolColor;
     }
 }
 
